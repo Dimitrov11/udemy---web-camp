@@ -17,5 +17,7 @@ function HouseKeeper(yearsOfExperience, name, cleaningRepertoire){
         console.log("I'm here to clean the room.");
     }  
 }
+    console.log(houseKeeper1.cleaningRepertoire);
+    
     let houseKeeper1 = new HouseKeeper(9, 'Jane', ['lobby', 'bathrooms']);
     houseKeeper1.cleaning();
