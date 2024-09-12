@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
-/* helper */
 .center-xy {
-    /* width: inherit; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -21,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #000;
+    background: #ffffff;
 }
 
 *,
@@ -32,6 +30,9 @@ body {
 
 .container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .copy-container {
@@ -39,7 +40,7 @@ body {
 }
 
 p {
-    color: #fff;
+    color: #000;
     font-size: 24px;
     letter-spacing: 0.2px;
     margin: 0;
@@ -70,4 +71,12 @@ p {
 }
 .home a:hover {
     text-decoration: underline;
+}
+
+.error {
+    text-align: center;
+}
+
+.error-img {
+    max-width: 75%;
 }
