@@ -2,3 +2,10 @@
 node_modules
 package.json
 package-lock.json
+
+
+# If we want to ignore all log files: 
+# *.log
+
+# If we want to ignore all txt files:
+# *.txt
